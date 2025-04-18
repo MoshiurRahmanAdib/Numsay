@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="resources/Icon.svg" width="128">
+  <img src="resources/512.png" width="128">
 </p>
 <h1 align="center">Numsay</h1>
 
