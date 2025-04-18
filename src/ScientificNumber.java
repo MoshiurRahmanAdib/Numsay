@@ -17,7 +17,7 @@ public class ScientificNumber implements Number {
         if (exponent.signum() <= 0) {
             number = coefficient.movePointLeft(exponent.abs().intValueExact());
 
-        } else if (exponent.intValue() <= coefficient.scale() && exponent.intValue() >= 0) {
+        } else if (exponent.intValue() > 0 && exponent.intValueExact() <= coefficient.scale()) {
             number = coefficient.movePointRight(exponent.intValue());
 
         } else { // If exponent is large enough for illionOffset

@@ -11,7 +11,8 @@ import java.util.Scanner;
 import java.util.concurrent.Callable;
 
 @Command(mixinStandardHelpOptions = true,
-        version = "Numsay 0.1.0",
+        name = "numsay",
+        version = "Numsay 1.0.0",
         description = "A CLI tool that spells out extremely large numbers using Conway and Guy's system.")
 public class Main implements Callable<Integer> {
     @Parameters(index = "0", arity = "0..1", description = "The number to spell") String number;
@@ -164,7 +165,7 @@ public class Main implements Callable<Integer> {
                 Numsay - A CLI tool that spells out extremely large numbers using the Conway-Guy naming system.
                 
                 This naming system was introduced by John Horton Conway and Richard K. Guy
-                in The Book of Numbers (1996).
+                in The Book of Numbers.
                 
                 Created by Moshiur Rahman Adib :)
                 GitHub: https://github.com/MoshiurRahmanAdib/Numsay
