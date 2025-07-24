@@ -3,14 +3,12 @@
 </p>
 <h1 align="center">Numsay</h1>
 
-A CLI tool that spells out extremely large numbers using the Conway-Guy naming system. This naming system was introduced by [John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) and [Richard K. Guy](https://en.wikipedia.org/wiki/Richard_K._Guy) in [The Book of Numbers](https://en.wikipedia.org/wiki/The_Book_of_Numbers_(math_book)).
+A CLI tool that spells out extremely large numbers. The Conway-Guy naming system is used, which was introduced by [John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) and [Richard K. Guy](https://en.wikipedia.org/wiki/Richard_K._Guy) in [The Book of Numbers](https://en.wikipedia.org/wiki/The_Book_of_Numbers_(math_book)).
 
 ```
-> 340282366920938463463374607431768211456 -st
+> 340282366920938463463374607431768211456 -s
 
 340,282,366,920,938,463,463,374,607,431,768,211,456: Three hundred forty undecillion two hundred eighty-two decillion three hundred sixty-six nonillion nine hundred twenty octillion nine hundred thirty-eight septillion four hundred sixty-three sextillion four hundred sixty-three quintillion three hundred seventy-four quadrillion six hundred seven trillion four hundred thirty-one billion seven hundred sixty-eight million two hundred eleven thousand four hundred fifty-six
-
-Execution time: 0.233ms (0.000233s or 233,300ns)
 ```
 
 ```
