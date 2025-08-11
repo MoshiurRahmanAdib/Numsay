@@ -20,10 +20,8 @@ Execution time: 0.146ms (0.000146s or 145,500ns)
 ```
 
 ## Usage
-
-> ⚠️ Numsay requires Java 17 or newer.
-> 
-> You can download it here: https://www.oracle.com/java/technologies/downloads/
+> [!NOTE]
+> Numsay requires Java 17 or newer. You can download it here: https://www.oracle.com/java/technologies/downloads/
 
 Go to the [releases](https://github.com/MoshiurRahmanAdib/Numsay/releases) page and download the latest JAR, or EXE if you're on Windows if you want.
 
